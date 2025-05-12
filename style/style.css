@@ -8,27 +8,38 @@
 
 body {
     margin: 0;
+    background: #636060;
 }
 
 
 
-.menu {
+.nav-header-menu {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 100%;
-    padding: 20px 40px;
+    width: 70%;
 
+}
+
+.logo{
+     width: 30%;
 }
 
 .nav-header {
     display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	
 }
 
 .nav-imagen {
     width: 147px;
     max-width: 147px;
+    display: flex;
 }
 
+.idioma-ingreso{
+    width: 50px;
+}
+
+.idioma {
+    width: 100%;
+}
