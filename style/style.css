@@ -103,7 +103,7 @@ body {
 
 .contenedor-dark {
     background-color: #1f1346;
-   padding: 80px 0px;
+    padding: 80px 0px;
 
 }
 
@@ -114,8 +114,8 @@ body {
     width: 100%;
     max-width: 1208px;
     margin-bottom: 48px;
-  
- 
+
+
 }
 
 .title-bg-dark {
@@ -153,7 +153,7 @@ body {
 
 
 .card {
- background-color: #2f1c6a;
+    background-color: #2f1c6a;
     border-radius: 16px;
     width: 296px;
 
@@ -163,7 +163,45 @@ body {
     gap: 16px;
 }
 
-.card-icon {}
+.card-icon {
+    background-color: #7253ee;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-list-ul {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bi-lightning-charge {
+ color: #ffffff;
+    font-size: 24px;
+    padding: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bi-check-circle {
+    color: #ffffff;
+    font-size: 24px;
+    padding: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 
 .card-title {
     font-weight: bold;
@@ -176,12 +214,4 @@ body {
     text-align: 24px;
     text-align: left;
     color: #ffffff;
-}
-
-.bi-list-ul {
-    color: #ffffff;
-    font-size: 18px;
-    padding: 2px;
-    background-color: aqua;
-    border-radius: 10px;
 }
