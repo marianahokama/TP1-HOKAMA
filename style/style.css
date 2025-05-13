@@ -90,6 +90,18 @@ body {
 .bi-chevron-down {
     color: #1D1E20;
     vertical-align: sub;
-    padding: 8px;
-    font-weight: 600;
+    padding: 5px;
+    width: 24px;
+
 }
+
+
+ /* SECCION CONTENERDOR DARK */
+
+ .contenedor-dark{
+background-color: #2f1c6a;
+ }
+
+ .title-bg-dark {
+    color: #ffffff;
+ }
