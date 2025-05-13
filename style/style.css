@@ -37,11 +37,11 @@ body {
     text-decoration: none;
     color: #1D1E20;
     line-height: 1;
-    gap: 0px; /* ESTA es la separación exacta entre texto e ícono */
+    gap: 0px; /* separación entre texto e ícono */
 }
 
 .navigation-section-menu-item-icon {
-    width: 24px; /* o el tamaño exacto del ícono si querés control fino */
+    width: 24px; /* el tamaño exacto del ícono  */
     height: 24px;
 }
 
