@@ -218,30 +218,23 @@ body {
 
 
 .fila-boton-empezar {
-    display: flex
-;
+    display: flex;
     justify-content: center;
     margin-top: 32px;
 }
+
 .boton-empezar {
     border-radius: 8px;
     background-color: #673de6;
     display: flex;
     color: #ffffff;
     font-size: 18px;
-    padding: 2px;
-    background-color: aqua;
     border-radius: 10px;
     background-color: #2f1c6a;
-
-    justify-content: center;
-    text-align: center;
     cursor: pointer;
     padding:  12px 48px;
-    position: relative;
-    transition: .3s ease-in-out;
-}
 
+}
 
 .title-bg-dark {
     color: #ffffff;
