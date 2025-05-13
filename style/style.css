@@ -184,4 +184,83 @@ body {
     padding: 2px;
     background-color: aqua;
     border-radius: 10px;
+    background-color: #2f1c6a;
+}
+
+.title-bg-dark {
+    color: #ffffff;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #f4f5ff;
+    padding: 0px 40px;
+    max-width: 1128px;
+    margin: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2f1c6a;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1025px;
+    padding-bottom: 10px;
+}
+
+.footer-social-networks-logos {
+    display: flex;
+    font-size: 27px;
+    gap: 20px;
+}
+
+.footer-social-networks-logos a {
+    color: #2f1c6a;
+    font-size: 24px;
+}
+
+.footer-payments-and-policy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.footer-payments {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.footer-payments img {
+    height: 38px;
+    border: 1px solid #d5dfff;
+    border-radius: 6px;
+}
+
+.footer-payments-text {
+    align-self: center;
+    color: #673de6;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-policy {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0px;
 }
