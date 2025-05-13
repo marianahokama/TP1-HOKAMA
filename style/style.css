@@ -3,8 +3,7 @@
 
 * {
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+ 
 }
 
 body {
@@ -21,7 +20,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 1; /* hace que ocupe el resto del espacio */
+    flex-grow: 1;
+    /* hace que ocupe el resto del espacio */
     padding: 20px 40px
 }
 
@@ -30,6 +30,7 @@ body {
     padding: 0;
     line-height: 1;
 }
+
 .menu a {
     display: inline-flex;
     align-items: center;
@@ -37,15 +38,17 @@ body {
     text-decoration: none;
     color: #1D1E20;
     line-height: 1;
-    gap: 0px; /* separación entre texto e ícono */
+    gap: 0px;
+    /* separación entre texto e ícono */
 }
 
 .navigation-section-menu-item-icon {
-    width: 24px; /* el tamaño exacto del ícono  */
+    width: 24px;
+    /* el tamaño exacto del ícono  */
     height: 24px;
 }
 
-.logo{
+.logo {
     width: 147px;
     height: 30px;
     padding: 29px 0px 29px 40px;
@@ -57,7 +60,7 @@ body {
     display: flex;
 }
 
-.idioma-ingreso{
+.idioma-ingreso {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +73,7 @@ body {
     margin-right: 4px;
 }
 
-.nav-header-left-buttons{
+.nav-header-left-buttons {
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -96,12 +99,41 @@ body {
 }
 
 
- /* SECCION CONTENERDOR DARK */
+/* SECCION CONTENERDOR DARK */
 
- .contenedor-dark{
-background-color: #2f1c6a;
- }
+.contenedor-dark {
+    background-color: #2f1c6a;
 
- .title-bg-dark {
+
+}
+
+.description {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1208px;
+    padding: 80px 0px;
+}
+
+.title-bg-dark {
     color: #ffffff;
- }
+    text-align: center;
+    width: 1128px;
+    font-size: 36px;
+     margin: 0;
+
+}
+
+.description-bg-dark {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    width: 1128px;
+    margin: 24 0 0 0;
+
+
+}
