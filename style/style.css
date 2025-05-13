@@ -210,8 +210,31 @@ body {
 }
 
 .card-description {
-    font-size: 18px;
+    font-size: 16px;
     text-align: 24px;
     text-align: left;
     color: #ffffff;
 }
+
+
+.fila-boton-empezar {
+    display: flex
+;
+    justify-content: center;
+    margin-top: 32px;
+}
+.boton-empezar {
+    border-radius: 8px;
+    background-color: #673de6;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    padding:  12px 48px;
+    position: relative;
+    transition: .3s ease-in-out;
+
+
+}
+
